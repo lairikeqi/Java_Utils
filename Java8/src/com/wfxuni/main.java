@@ -2,6 +2,7 @@ package com.wfxuni;
 
 import com.wfxuni.utils.StringUtil;
 
+import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.function.Consumer;
 
@@ -42,5 +43,6 @@ public class main {
         // 去掉最后一个多余连接符
         String finalResult = result.substring(0, result.length() - 1).toString();
         consumer.accept(finalResult);
+
     }
 }
