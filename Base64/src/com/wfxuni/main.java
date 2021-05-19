@@ -9,7 +9,7 @@ public class main {
     private static Consumer consumer = System.out::println;
 
     public static void main(String[] args) {
-        String string = "想太多会难过";
+        String string = "15927142327";
         String encodeResult = Base64Util.encoder(string);
         consumer.accept(encodeResult);
         try {
