@@ -21,5 +21,9 @@ public class Main1 {
         int i8 = 128;
         System.out.println(i6 == i7); //false,128超过指定范围了,装箱相当于new Integer()
         System.out.println(i6 == i8); //true,同上,引用类型拆箱为基本类型
+
+        Integer i9 = new Integer(25);
+        Integer i10 = new Integer(25);
+        System.out.println(i9.equals(i10));
     }
 }
